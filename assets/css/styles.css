@@ -1,0 +1,103 @@
+:root {
+--azul-marino:#212529;
+--gris:#707070;
+--light:#F8F9FA;
+--white: #fff;
+--success: #28a745;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.roboto-light {
+    font-weight: 300 !important;
+    font-style: normal;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.roboto-medium {
+    font-weight: 500 !important;
+    font-style: normal;
+    font-family: "Roboto", sans-serif !important;
+}
+  
+.navbar {
+    background-color: var(--success);
+    justify-content: right;
+}
+
+#logo-blanco {
+    width: 8rem;
+    height: 2rem;
+}
+
+#productos {
+    padding-top: 3.75rem;
+  }
+
+.size20 {
+    font-size: 20px;
+}
+
+.size16 {
+    font-size: 16px;
+}
+
+.icons-section {
+    font-size: 13px;
+    
+}
+
+.text-icon {
+    font-family: "Roboto", sans-serif !important; 
+    font-weight: 300 !important;
+}
+
+section div div div i,  section div div div p{
+    display: inline-block;
+}
+
+.green-text {
+    color: var(--success);
+}
+
+.gray-text {
+    color: var(--gris);
+}
+
+.green-background {
+    background-color: var(--success);
+}
+
+.white-background {
+    background-color: var(--light) !important;
+    border-color: var(--light) !important;
+}
+
+.blue-text {
+    color: var(--azul-marino) !important;
+}
+
+.white-text {
+    color: var(--light);
+    font-size: 21px;
+}
+
+.card-width {
+    width: 18rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 8rem;
+    height: 2.5rem;
+}
